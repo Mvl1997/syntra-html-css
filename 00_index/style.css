@@ -1,0 +1,38 @@
+h1 {
+  color: antiquewhite;
+}
+h1 {
+  text-align: center;
+}
+section {
+  color: antiquewhite;
+}
+h2 {
+  color: antiquewhite;
+}
+h3 {
+  color: antiquewhite;
+}
+p {
+  color: antiquewhite;
+}
+body {
+  background-color: dimgray;
+}
+li:hover {
+  background-color: floralwhite;
+}
+ol:hover {
+  background-color: floralwhite;
+}
+p.solid {
+  border-style: solid;
+}
+.warning {
+  background-color: black;
+}
+h1 {
+  border: 2px solid antiquewhite;
+  border-radius: 15px;
+}
+ 

@@ -1,0 +1,12 @@
+{
+  "name": "syntra-html",
+  "version": "1.0.0",
+  "description": "oefeningen voor HTML-css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "surge": "surge . mehdi-html-css-syntra_2023.surge.sh/"
+  },
+  "author": "Mehdi van Loon",
+  "license": "ISC"
+}

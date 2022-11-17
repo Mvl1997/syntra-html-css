@@ -1,0 +1,91 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 62.5%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+body {
+  font-family: Arial;
+  font-size: 1.4rem;
+  background-color: #699BF7;
+}
+nav{
+    background-color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  
+}
+
+nav ul li {
+  padding: 34px 34px 39px 34px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: black;
+  color: white;
+
+}
+
+aside{
+    background-color: #C8B8FF;
+    padding: 22px;
+    text-align: center;
+}
+
+main{
+    /*vh staat voor viewheigth
+    vw staat voor viewwidth
+    deze unit is percentage van je viewport
+    dan is 10vw gelijk aan 10procent(1000px breedte is 100px viewport dat word weergegven */
+     display: flex;
+     flex-wrap: wrap-reverse ;
+     justify-content: space-between;
+    padding: 62px 11vw ;
+    row-gap: 36px;
+    /* row-gap kan enkel gebruikt worden als je flex wrap gebruikt*/
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 400px;
+
+}
+article button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px;
+    /*fit content neemt de breedte van de content*/
+    width: fit-content;
+    border-radius: 4px;
+}
+article button:hover{
+    background-color: white;
+    color: black;
+}
+article h1{
+    font-size: 2.1rem;
+}
+article h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+article section{
+    line-height: 25px;
+
+}

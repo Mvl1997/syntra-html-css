@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px;
+  background-color: white;
+  height: 100%;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+  font-size: 30px;
+}
+header h2 {
+  font-size: 25px;
+  color: #ff1b30;
+  padding: 5px;
+}
+
+header h1,
+header h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+#teslacar {
+  width: 100%;
+}
+footer {
+  padding: 27px;
+  display: flex;
+  justify-content: center;
+}
+section {
+  font-family: Arial;
+}
+section {
+  border-bottom: 1px black solid;
+  padding: 5px;
+}
+
+li {
+  background-image: url("bg_listitem.jpg");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  background-position-y: center;
+  font-size: 15px;
+}
